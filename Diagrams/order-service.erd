@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diagram version="1" name="order-service">
+<diagram version="1" name="order-service.erd">
 	<entities>
 		<data-source id="mysql8-1859b6ee726-27f9f428e86b695d">
-			<entity id="1" name="t_order_line_items" fq-name="`order-service`.t_order_line_items">
+			<entity id="1" name="t_order_line_items" fq-name="`order-service`.t_order_line_items" order="0" x="468" y="12">
 				<path name="order-service"/>
 			</entity>
-			<entity id="2" name="t_orders" fq-name="`order-service`.t_orders">
+			<entity id="2" name="t_orders" fq-name="`order-service`.t_orders" order="1" x="479" y="325">
 				<path name="order-service"/>
 			</entity>
-			<entity id="3" name="t_orders_order_line_items_list" fq-name="`order-service`.t_orders_order_line_items_list">
+			<entity id="3" name="t_orders_order_line_items_list" fq-name="`order-service`.t_orders_order_line_items_list" order="2" x="20" y="100">
 				<path name="order-service"/>
 			</entity>
 		</data-source>
