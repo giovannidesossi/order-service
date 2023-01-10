@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diagram version="1" name="order-service">
+	<entities>
+		<data-source id="mysql8-1859b6ee726-27f9f428e86b695d">
+			<entity id="1" name="t_order_line_items" fq-name="`order-service`.t_order_line_items">
+				<path name="order-service"/>
+			</entity>
+			<entity id="2" name="t_orders" fq-name="`order-service`.t_orders">
+				<path name="order-service"/>
+			</entity>
+			<entity id="3" name="t_orders_order_line_items_list" fq-name="`order-service`.t_orders_order_line_items_list">
+				<path name="order-service"/>
+			</entity>
+		</data-source>
+	</entities>
+	<relations>
+		<relation name="FK1qq155yd0omg8y9in6526bhaj" fq-name="`order-service`.t_orders_order_line_items_list.FK1qq155yd0omg8y9in6526bhaj" type="fk" pk-ref="1" fk-ref="3"/>
+		<relation name="FK3wdgw7hxmodjqfulfaymc8aof" fq-name="`order-service`.t_orders_order_line_items_list.FK3wdgw7hxmodjqfulfaymc8aof" type="fk" pk-ref="2" fk-ref="3"/>
+	</relations>
+</diagram>
